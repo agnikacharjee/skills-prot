@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(rgb(33, 32, 32),rgb(27, 27, 27),rgb(15, 15, 15), black);
+    color: rgb(172, 172, 172);
+    height: 100vh;
+}
+.s{
+    position: relative;
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 50px;
+    background: linear-gradient(to right, #eb51cc, #333399, gray,gray,#333399,#eb51cc);
+    background-size: 200%;
+    animation: animationGradient 2.5s linear infinite;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.336);
+    margin-bottom: 20px;
+    margin: 20px;
+    margin-left: 50px;
+    padding: 2px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@keyframes animationGradient{
+    to{
+        background-position: 200%;
+    }
+}
+.a{
+    width: 820px;
+    height: 450px;
+    border: 2px solid pink;
+    border-radius: 50px;
+    background: linear-gradient();
+    text-shadow:0 0 10px  rgb(86, 84, 84);
+    
+}
+ul{
+     margin-left: 40px;
+   font-size: 20px;
+   padding: 20px;
+   padding-left: 5%;
+   font-size: 30px;
+}
+.robot{
+     position: absolute;
+    top: 0;
+    right: -35%;
+    scale: 0.8;
+}
